@@ -1,0 +1,27 @@
+html { height: 400%; }
+body { height: 100%; }
+
+.boxs {
+  width: 100%;
+  height: 25%;
+  padding-left: 210px;
+}
+
+.main-nav {
+  padding-top: 30px;
+  outline: 1px solid red;
+  position: fixed;
+  height: 100%;
+  width: 200px;
+}
+.main-nav ul a:hover {
+  background: #666!important;
+  color: #fff!important;
+}
+.main-nav ul a.activec {
+  background: #666!important;
+  color: #fff!important;
+}
+
+.main div.targetc { background: #ccc; }
+.main div.targetc:nth-child(even) { background: #eee; }
