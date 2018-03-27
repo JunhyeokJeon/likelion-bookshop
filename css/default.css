@@ -1,15 +1,46 @@
-html { height: 400%; }
-body { height: 100%; }
+/* html { height: 400%; }
+body { height: 100%; } */
+
+/* fonts */
+@font-face {
+  font-family: 'hanna';
+  src: url('../font/hanna.woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'dohyeon';
+  src: url('../font/dohyeon.woff');
+}
+@font-face {
+  font-family: 'NotoSans-Light';
+  src: url('../font/NotoSans-Light.woff');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src: url('../font/NotoSans-Regular.woff');
+  font-weight: normal;
+}
 
 /* nav */
 .main-nav {
   padding-top: 30px;
-  outline: 1px solid red;
   position: fixed;
   height: 100%;
   width: 200px;
+  z-index: 3;
+}
+.main-nav-bg {
+  width:200px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
 }
 .main-nav ul { margin-top: 10px; }
+.main-nav ul a {
+  font-family: 'NotoSans-Light';
+  color: #29290e;
+}
 .main-nav .nav-top {
   width: 100%;
   height: 200px;
@@ -18,31 +49,38 @@ body { height: 100%; }
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 1px solid red;
-}.main-nav .logo:hover {
-  border: 1px solid black;
+  overflow: hidden;
+}
+.main-nav .logo:hover { opacity: 0.7; }
+.main-nav .logo .logo-img {
+  width: 150px; height: 150px;
 }
 .main-nav ul a:hover {
-  background: #666!important;
+  background: #29290e!important;
   color: #fff!important;
 }
 .main-nav ul a.activec {
-  background: #666!important;
+  background: #29290e!important;
   color: #fff!important;
 }
 
 /* boxs */
 .box-group {
-  height: 100%;
+  /* height: 100%; */
 }
 .boxs {
   width: 100%;
-  height: 25%;
+  height: 1200px;
   padding-left: 200px;
 }
 .box-group div.targetc { background: #ccc; }
 .box-group div.targetc:nth-child(even) { background: #eee; }
-.boxs h3, .boxs h4 { padding: 10px; }
+.boxs h3, .boxs h4 {
+  padding: 10px;
+  font-family: 'NotoSans-Regular';
+  font-weight: bold;
+  text-align: center;
+}
 .pd { padding: 5px 10px; }
 
 /* box1 */
@@ -61,17 +99,17 @@ footer {
   width: 100%;
   padding-left: 200px;
   height: 60px;
-  outline: 1px solid red;
   z-index: 2
 }
 footer .footer-p {
-  outline: 1px solid blue;
   color: #fff;
   line-height: 1.3rem;
   text-align: center;
   width: 100%;
   font-size: 14px;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.5px;
+  /* font-family: '맑은 고딕', monospace; */
+  font-family: 'NotoSans-Regular', sans-serif;
 }
 footer .footer-p a { color: #fff; text-decoration: none; }
 footer .footer-p a:hover { color: #fff; text-decoration: underline; }
@@ -82,7 +120,7 @@ footer .footer-p a:hover { color: #fff; text-decoration: underline; }
   padding-left: 200px;
   height: 60px;
   background: black;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: 1;
   margin-left: 200px;
 }
