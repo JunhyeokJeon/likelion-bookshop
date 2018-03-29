@@ -10,10 +10,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/boxes.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <title>Hello, world!</title>
   </head>
   <body>
+    <div class="toggle-nav">
+      <i class="fas fa-bars"></i>
+    </div>
     <nav class="main-nav">
       <div class="nav-top d-flex justify-content-center align-items-center">
         <div class="logo">
@@ -32,80 +36,80 @@
       </ul>
     </nav>
     <div class="main-nav-bg"></div>
-    <!-- <img class="main-nav-bg" src="img/like.png" alt=""> -->
+
     <div class="box-group">
-      <div class="boxs box1 targetc" id="1">
+      <div class="boxes box1 targetc" id="1">
         <h3 class="new-book">책읽는 사자처럼 신간</h3>
         <div class="box1-con1 pd d-flex justify-content-center">
           <img src="img/fbg1.png" alt="">
         </div>
         <h3 class="bestseller_head">이달의 Best Seller</h3>
         <div class="box1-con2 pd d-flex justify-content-center">
-          <div class="row justify-content-center card-wrap">
-            <div class="col-md-2">
-              <div class="card">
+          <div class="row d-flex justify-content-center card-wrap">
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="card d-flex align-items-center">
                 <img class="card-img-top" src="img/food3.png" alt="Card image cap">
-                <div class="card-header d-flex align-items-center">
-                  <i class="icon fas fa-align-justify"></i>&nbsp Featured
+                <div class="card-header">
+                  Featured
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
-              <div class="card">
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="card d-flex align-items-center">
                 <img class="card-img-top" src="img/food3.png" alt="Card image cap">
-                <div class="card-header d-flex align-items-center">
-                  <i class="icon fas fa-align-justify"></i>&nbsp Featured
+                <div class="card-header">
+                  Featured
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
-              <div class="card">
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="card d-flex align-items-center">
                 <img class="card-img-top" src="img/food3.png" alt="Card image cap">
-                <div class="card-header d-flex align-items-center">
-                  <i class="icon fas fa-align-justify"></i>&nbsp Featured
+                <div class="card-header">
+                  Featured
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
-              <div class="card">
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="card d-flex align-items-center">
                 <img class="card-img-top" src="img/food3.png" alt="Card image cap">
-                <div class="card-header d-flex align-items-center">
-                  <i class="icon fas fa-align-justify"></i>&nbsp Featured
+                <div class="card-header">
+                  Featured
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
-              <div class="card">
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="card d-flex align-items-center">
                 <img class="card-img-top" src="img/food3.png" alt="Card image cap">
-                <div class="card-header d-flex align-items-center">
-                  <i class="icon fas fa-align-justify"></i>&nbsp Featured
+                <div class="card-header">
+                  Featured
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
-              <div class="card">
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="card d-flex align-items-center">
                 <img class="card-img-top" src="img/food3.png" alt="Card image cap">
-                <div class="card-header d-flex align-items-center">
-                  <i class="icon fas fa-align-justify"></i>&nbsp Featured
+                <div class="card-header">
+                  Featured
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="boxs box2 targetc" id="2">
+      <div class="boxes box2 d-flex flex-column justify-content-center targetc" id="2">
         <h3>책읽는 사자처럼 화제의 신간</h3>
-        <div class="box2-con1 pd">conasd</div>
-        <h4>신간</h4>
-        <div class="box2-con2 pd">
+        <div class="box2-con1">conasd</div>
+        <h3>신간</h3>
+        <div class="box2-con2">
           <p>blablab </p>
         </div>
       </div>
-      <div class="boxs box3 targetc" id="3">hyemin</div>
-      <div class="boxs box3 targetc" id="4">minseok</div>
-      <div class="boxs box3 targetc" id="5">junhyeok</div>
-      <div class="boxs box4 targetc" id="6">index</div>
-      <div class="boxs box3 targetc" id="7">more info</div>
+      <div class="boxes box3 targetc" id="3">hyemin</div>
+      <div class="boxes box4 targetc" id="4">minseok</div>
+      <div class="boxes box5 targetc" id="5">junhyeok</div>
+      <div class="boxes box6 targetc" id="6">index</div>
+      <div class="boxes box7 targetc" id="7">more info</div>
     </div>
 
     <footer class="d-flex align-items-center justify-content-center">
@@ -124,7 +128,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- fontawesome icon -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   </body>

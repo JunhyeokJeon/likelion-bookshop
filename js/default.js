@@ -15,3 +15,18 @@ $(window).on('scroll', function() {
         }
     });
 });
+
+$(window).on('load', function(){
+    var toggle = false;
+
+    $('.toggle-nav').click(function() {
+        toggle = !toggle;
+        if(toggle){
+            $('.main-nav').animate({opacity: 1});
+            $('.main-nav-bg').animate({opacity: 0.4});
+        } else {
+            $('.main-nav').animate({opacity: 0});
+            $('.main-nav-bg').animate({opacity: 0});
+        }
+    });
+});
