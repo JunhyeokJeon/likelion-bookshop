@@ -1,7 +1,11 @@
 /* box1 */
 .box1 {
-  background-image: url("../img/box-bg.png");
-
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size :cover;
+  background-color: rgba(255,255,255,0.9);
 }
 .box1 .bestseller_head { margin-top: 4rem; }
 .box1-con2 .row { width: 85%; }
@@ -16,6 +20,31 @@
   font-size: 14px;
   letter-spacing: -0.5px;
   background: #fff;
+}
+
+.box3  {
+  background-image: url("../img/bg_author.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size :cover;
+  background-color: rgba(255,255,255,0.9);
+}
+.box4  {
+  background-image: url("../img/bg_author.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size :cover;
+  background-color: rgba(255,255,255,0.9);
+}
+.box5  {
+  background-image: url("../img/bg_author.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size :cover;
+  background-color: rgba(255,255,255,0.9);
 }
 
 /* box2 */
