@@ -89,10 +89,15 @@
   margin: 0 auto;
   padding-bottom: 70px;
 }
-.box3-inner { width: 50%;  }
+.box3-inner {
+  width: 50%;
+  letter-spacing: -1px;
+}
 .box3-inner h4 { text-align: center; }
-.box3-inner p { text-align: center; }
+.box3-inner p { text-align: center; padding: 0 50px; }
 .box3-inner ul li {  }
+.box3-inner img { border-radius: 15px; }
+.box3-inner .hyemin { width: 400px; height: 450px; }
 
 /* box4 */
 .box4 {
@@ -120,6 +125,8 @@
   outline: 1px solid red;
   margin: 10px auto;
 } */
-/* box6 */
 
+/* box6 */
 .box6 { padding-bottom: 60px; }
+.box6 h3 { margin: 30px 0; font-family: "dohyeon" }
+.box6 img { border-radius: 10px; }
