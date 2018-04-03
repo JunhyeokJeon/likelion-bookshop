@@ -23,7 +23,7 @@ $(window).on('load', function(){
         toggle = !toggle;
         if(toggle){
             $('.main-nav').animate({opacity: 1});
-            $('.main-nav-bg').animate({opacity: 0.4});
+            $('.main-nav-bg').animate({opacity: 0.6});
         } else {
             $('.main-nav').animate({opacity: 0});
             $('.main-nav-bg').animate({opacity: 0});
