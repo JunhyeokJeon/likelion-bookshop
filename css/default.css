@@ -55,11 +55,11 @@ body { font-family: "NotoSans-Regular" }
 .main-nav .logo .logo-img { width: 150px; height: 150px; }
 .main-nav ul a:hover {
   background: #fff!important;
-  color: #00bbff!important;
+  color: #8B4513!important;
 }
 .main-nav ul a.activec {
   background: #fff!important;
-  color: #00bbff!important;
+  color: #8B4513!important;
 }
 
 /* toggle-nav */
