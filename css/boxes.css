@@ -1,3 +1,24 @@
+/* fonts */
+@font-face {
+  font-family: 'hanna';
+  src: url('../font/hanna.woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'dohyeon';
+  src: url('../font/dohyeon.woff');
+}
+@font-face {
+  font-family: 'NotoSans-Light';
+  src: url('../font/NotoSans-Light.woff');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src: url('../font/NotoSans-Regular.woff');
+  font-weight: normal;
+}
+
 /* box1 */
 .box1 {
   background-image: url("../img/bg.jpg");
@@ -21,8 +42,37 @@
   letter-spacing: -0.5px;
   background: #fff;
 }
+.box1 h3 { font-family: "hanna"; }
 
 /* box2 */
+.box2-inner-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+.box2-inner { width: 50%; }
+.box2-inner h4 { letter-spacing: -1px; font-family: "dohyeon"; }
+.box2-inner p { letter-spacing: -1px; }
+.box2-buttons button {
+  width: 20%;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.box2 h3 { font-family: "hanna"; margin: 30px 0; }
+.box2-inner-bottom {
+  width: 100%;
+  margin-top: 70px;
+  padding: 0 70px;
+}
+.box2-inner-bottom h4 {
+  font-family: "hanna";
+  text-align: center;
+}
+.box2-inner-bottom p {
+  font-family: "NotoSans-Light";
+  letter-spacing: -1px;
+  text-align: center;
+  margin-bottom: 50px;
+}
 
 /* box3 */
 .box3  {
@@ -33,9 +83,19 @@
   background-size :cover;
   background-color: rgba(255,255,255,0.9);
 }
+.box3 h3 { font-family: "hanna"; margin: 30px 0; }
+.box3-inner-wrap {
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+.box3-inner { width: 50%;  }
+.box3-inner h4 { text-align: center; }
+.box3-inner p { text-align: center; }
+.box3-inner ul li {  }
 
 /* box4 */
-.box4  {
+.box4 {
   background-image: url("../img/bg_author.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -54,12 +114,12 @@
   background-color: rgba(255,255,255,0.9);
 }
 
-/* box6 */
-.box6 .card-deck { width: 100%; }
+/* .box6 .card-deck { width: 100%; }
 .box6 .card-deck .card-wrap .card {
   width: 5rem!important;
   outline: 1px solid red;
   margin: 10px auto;
-}
-/* box7 */
-.box7 { padding-bottom: 60px; }
+} */
+/* box6 */
+
+.box6 { padding-bottom: 60px; }
